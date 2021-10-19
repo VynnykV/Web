@@ -1,0 +1,116 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.heading{
+    margin: auto;
+}
+
+/*header*/
+
+.header{
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px black solid;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.whiteBlock{
+    background-color: white;
+    border: 2px black solid;
+    height: 6vh;
+    width: 40%;
+    
+}
+
+/*content*/
+
+.content{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    border: 1px black solid;
+}
+
+.sidebar{
+    background-color: blue;
+    width:20%;
+    border-right: 2px black solid;
+    line-height: 80vh;
+}
+
+.content-container{
+    padding: 50px 50px;
+    width: 80%;
+}
+
+.blocks{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.redBlock{
+    height: 10vh;
+    width: 100%;
+    background-color: red;
+    border: 2px black solid;
+}
+
+.leftBlock{
+    width: 50%;
+    margin-right: 50px;
+    border: 2px black solid;
+    line-height: 50vh;
+    position: relative;
+}
+
+.bottomBlock{
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    border: 1px black solid;
+}
+
+.rightBlock{
+    background-color: blue;
+    width: 50%;
+    line-height: 50vh;
+    border: 2px black solid;
+}
+/*footer*/
+
+.footer{
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+    border: 2px black solid;
+    text-align: left;
+    line-height: 10vh;
+    padding-left: 40px;
+}

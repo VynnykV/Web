@@ -1,0 +1,194 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
+/*header*/
+
+.header{
+    width: 100%;
+    text-align: center;
+    background-color:rgb(37, 36, 36);
+    padding-top: 25px;
+}
+
+.title{
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    text-transform: uppercase;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-transform: uppercase;
+}
+
+.courses{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.course__item{
+    height: 35vh;
+    width: 25%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: rgb(22, 24, 23);
+    position: relative;
+}
+
+.course__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+}
+
+.course__item h1{
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.course__item p{
+    font-size: 12px;
+    font-weight: bold;
+    color:blue;
+}
+
+.course{
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: orange;
+}
+
+.description{
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 5px;
+    text-align: left;
+    margin: auto;
+}
+
+.details{
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    border:1px solid gray;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.details:hover{
+    color: orange;
+}
+
+/*header__inner*/
+
+.header__inner{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(60, 138, 255);
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about img{
+    width: 15%;
+    border-radius: 10px;
+    
+}
+
+/*main*/
+.main{
+    padding-top: 20px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+ }
+
+.girl{
+    width: 25%;
+}
+
+.info h2{
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: orange;
+ }
+
+ .footer{
+     width: 100%;
+ }
+
+ .footer_inner{
+     background-color: orange;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+.footer_inner h3{
+    color: #fff;
+    text-transform: uppercase;
+    padding-right: 5%;
+}
+
+.addition{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+ .checkMark{
+     width: 10%;
+ }
+
+ .cMInfo{
+     font-size: 14px;
+     font-weight: bold;
+     text-transform: uppercase;
+ }

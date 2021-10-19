@@ -1,0 +1,68 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+table{
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+    border-spacing: 0;
+    font-weight: bold;
+}
+
+.main, .sidebar, .footer, .header, .red, .box, .blue, .thirdBlock{
+    border-collapse: collapse;
+    border: 2px black solid;
+}
+
+.header{
+    background-color: yellow;
+    height: 10vh;
+}
+
+.header__box{
+    border-collapse: separate;
+    border-spacing: 20px;
+    text-align: right;
+    padding-right: 3%;
+}
+
+.box{
+    background-color: #fff;
+    width: 40%;
+}
+
+.content{
+    border-collapse: separate;
+    border-spacing: 50px;
+    width: 100%;
+}
+
+.footer{
+    background-color: yellow;
+    height: 10vh;
+}
+
+.footer h3{
+    text-align: left;
+    padding-left: 4%;
+}
+
+.red{
+    background-color: red;
+    height: 10vh;
+}
+
+.sidebar{
+    background-color: blue;
+    width: 20%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+

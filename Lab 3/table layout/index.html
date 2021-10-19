@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <table class="main">
+        <tr class="header">
+            <td colspan="3">
+                <table class="header__box">
+                    <tr>
+                        <td class="box"></td>
+                        <td><h3>1</h3></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="sidebar"><h3>2</h3></td>
+            <td>
+                <table class="content">
+                    <tr>
+                        <td class="red" colspan="2"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="thirdBlock">
+                                <tr>
+                                    <td><h3>3</h3></td>
+                                </tr>
+                                <tr>
+                                    <td class="red"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="blue"><h3>4</h3></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr class="footer">
+            <td colspan="3"><h3>5</h3></td>
+        </tr>
+    </table>
+</body>
+</html>
