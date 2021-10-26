@@ -1,0 +1,31 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.task{
+    font-size: 20px;
+}
+
+#result{
+    text-align: center;
+    border: 2px solid black;
+    font-size: 25px;
+}
