@@ -33,6 +33,8 @@ namespace ComputerEquipment.Mappings
                 opt => opt.MapFrom(dto => dto.Price))
                 .ForMember(d => d.Description,
                 opt => opt.MapFrom(dto => dto.Description));
+            CreateMap<DeviceType, DeviceTypeVm>();
+            CreateMap<Producer, ProducerVm>();
         }
     }
 }

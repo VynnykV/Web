@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 namespace ComputerEquipment.Controllers
 {
     [Route("api/[controller]")]
-    public class DevicesController : Controller
+    public class DeviceController : Controller
     {
         private readonly ComputerEquipmentContext _context;
         private readonly IMapper _mapper;
 
-        public DevicesController(ComputerEquipmentContext context, IMapper mapper)
+        public DeviceController(ComputerEquipmentContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
