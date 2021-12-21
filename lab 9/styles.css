@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#registration-form{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid teal;
+    padding: 25px 25px;
+}
+
+.registration-title{
+    margin-bottom: 25px;
+}
+
+.validate-password, .validate-username {
+    color: red;
+}

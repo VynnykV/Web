@@ -1,0 +1,19 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+
+<list>
+<users>
+    <username>frog</username>
+    <username>tricky</username>
+    <username>dealer</username>
+    <username>vynnykv</username>
+    <username>bash</username>
+    <username>framework</username>
+    <username>front-end</username>
+</users>
+<requirements>
+    <password>
+        <length>8 symbols</length>
+        <upper>1 upper letter</upper>
+    </password>
+</requirements>
+</list>
